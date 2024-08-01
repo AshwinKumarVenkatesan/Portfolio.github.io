@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body background="./assets/pexels-mdsnmdsnmdsn-1405773.jpg">
+
+    <nav id="desktop-nav">
+      <div class="logo">Ashwin kumar Venkatesan</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#Technical skills">Technical skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Ashwin kumar Venkatesan</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+          <li><a href="#Technical skills" onclick="toggleMenu()">Technical skills</a></li>
+          <li><a href="#Experience" onclick="toggleMenu()">Experience</a></li>
+          <li> <a href="#contact" onclick="toggleMenu()">Contact</a></li>
+
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/Ashwin reboocon2.1.png" alt="Ashwin kumar Venkatesan profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Ashwin kumar Venkatesan</h1>
+        <p class="section__text__p2">Mechanical / Production Engineer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Ashwin Kumar Venkatesan_CV.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/'"
+          />
+          
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+              <br>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>3 years <br />Mechanical Engineer</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Sc. Bachelors Degree<br />M.Sc. Masters Degree</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I am working as a mechanical engineer at Reboocon Bionics,
+where I operate in compliance with ISO 13485 standards. My
+role entails overseeing the production, repair, and
+maintenance processes of prosthetic devices. Utilizing CAD
+software, I design various components for our product, along
+with creating and fabricating production tools. My
+responsibilities also include performing investigations and
+documenting any non-conformity.
+As the most senior engineer, I have the responsibility of
+maintaining documentation (SOPs, etc) as well as training
+new personnel. I investigate and perform root cause analysis
+on the prosthetics to troubleshoot and ensure GMP
+compliance.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Reboocon Bionics</h2>
+            <h3 class="experience-sub-title">Mechanical Engineer</h3>
+            <p>Delft , Netherlands</p>
+            <p>2022-Present</p>
+            
+            <br>
+            <br>
+            <br>
+
+            <div class="article-container">
+              <article>
+                <ul>
+                  <p>Ensured GMP standards were maintained</p>
+                  <li><p>Ensured GMP standards were maintained</p>
+                    </li>
+                  <li>Trained new team members on
+                    production procedures
+                    </li>
+                  <li>Adhered to ISO 13485 Standard in all
+                    engineering activities
+                     
+                  </li>
+                  <li> Led weekly production meetings
+                    </li>
+                    <li>Wrote and implemented procedures
+                      (SOPs)
+                      </li>
+                      <li>Worked in multidisciplinary teams to
+                        improve the manufacturing process and
+                        inventory management
+                        </li>
+                        <li>Performed root cause analysis, lead
+                          CAPA actions
+                          </li>
+                          <li>Gained practical knowledge of Lean Six
+                            Sigma and Kanban Scrum
+                            </li>
+                          <li>Designed and set up the Odoo ERP
+                            system
+                            </li>
+                          <li>Validated the QMS system (Matrix req.)
+                            </li>
+                          <li>Continuous Improvement and Risk
+                            management</li>
+                        
+                </ul>
+              </article>
+             
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Renault Nissan Pvt Ltd</h2>
+            <h3 class="experience-sub-title">Quality Engineer</h3>
+            <p>Chennai,India</p>
+            <p>2018-2019</p>
+            <br>
+            <br>
+            <br>
+
+            <div class="article-container">
+              <article>
+                <ul>
+                  <li>Analyzed the Quality of tools and machines        
+                    </li>
+                  <li>Investigated the root causes of quality issues,
+                    and implemented corrective and preventive
+                    actions to address them.
+                    </li>
+                  <li> Worked in cross-functional teams on supply
+                    chain management
+                     
+                  </li>
+                  
+                        
+                </ul>
+              </article>
+                 
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    <!--new section / Education-->
+    <section id="education">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Education</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Bsc Mechanical engineering</h2>
+            
+            <h3 class="education-sub-title">KRCE College of engineering,India</h3>
+            <p>2014-2018</p>
+            <br>
+            <br>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Engineering Mechanics</h3>          
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Fluid Mechanics and Machinery</h3>                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Manufacturing Processes</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Measurement Techniques, Instrumentation,
+                    Calibration
+                    </h3>
+                 
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Machine Design
+                    </h3>
+                 
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Heat and Mass Transfer
+                    </h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>
+                     Industrial Engineering
+                   </h3>
+                
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>
+                    Properties and Selection of Materials,
+                    Material Testing
+                    </h3>
+                  
+                </div>
+              </article>
+              
+
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Msc Automotive systems</h2>
+            <h3 class="education-sub-title">HAN Univesity of Applied science,Arnhem Netherlands</h3>
+            <p>2019-2021</p>
+            <br>
+            <br>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Applied control</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>
+                    System modelling
+                  </h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Intelligent mobility</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Big data and small data</h3>
+                  
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+<br>
+<br>
+<br>
+
+<!--Techinal skills -->
+<section id="Technical skills">
+  <p class="section__text__p1">Explore My</p>
+  <h1 class="title">Technical skills</h1>
+  <div class="experience-details-container">
+    <div class="about-containers">
+      <div class="details-container">
+        
+        <div class="article-container">
+          <article>
+            <img
+              src="./assets/checkmark.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>AutoCAD Solidworks CREO</h3>
+              <p>Advanced</p>          
+            </div>
+          </article>
+          <article>
+            <img
+              src="./assets/checkmark.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>ISO 13485</h3>     
+              <p>Advanced</p>             
+            </div>
+          </article>
+          <article>
+            <img
+              src="./assets/checkmark.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>PowerBI</h3>
+              <p>Advanced</p>
+              
+            </div>
+          </article>
+          <article>
+            <img
+              src="./assets/checkmark.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>Documentation writting
+                </h3>
+                <p>Advanced</p>
+             
+            </div>
+          </article>
+          <article>
+            <img
+              src="./assets/checkmark.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>Problem Investigations
+                </h3>
+                <p>Advanced</p>
+             
+            </div>
+          </article>
+          <article>
+            <img
+              src="./assets/checkmark.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3> Root cause Analysis and CAPA 
+                </h3>
+                <p>Advanced</p>
+              
+            </div>
+          </article>
+          <article>
+            <img
+              src="./assets/checkmark.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>
+                 Odoo
+               </h3>
+               <p>Advanced</p>
+            
+            </div>
+          </article>
+          <article>
+            <img
+              src="./assets/checkmark.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>
+                MS Office
+                </h3>
+                <p>Advanced</p>
+              
+            </div>
+          </article>
+          <article>
+            <img
+              src="./assets/checkmark.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>
+               MATLab and SIMULINK
+                </h3>
+                <p>Basic - Intermediate</p>
+              
+            </div>
+          </article>          
+  <img
+    src="./assets/arrow.png"
+    alt="Arrow icon"
+    class="icon arrow"
+    onclick="location.href='./#projects'"
+  />
+</section>
+
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:ashwinvenkat14@gmail.com">ashwinvenkat14@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/ashwinkumarvenkatesan/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#Technical skills">Technical skills</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Ashwin kumar Venkatesan. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
